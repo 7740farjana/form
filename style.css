@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--
+img{
+    width: 100%;
+    height: 300px;
+
+}
+ul.nav{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+    
+
+}
+ul.nav li{
+    background-color:rgb(57, 189, 101);
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    
+
+}
+
+ul.nav li a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-left: 10px 10px 10px 10px;
+    
+    
+    
+    
+}
+ul.nav li:hover{
+    color:red;
+   
+
+}
+
+h1{
+    color:black;
+    font-family:serif;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.about-me h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.about-me img{
+    height: 50%;
+    width: 50%;
+    float: right;
+}
+.pera{
+    height:50%;
+    width: 50%;
+}
+.service{
+    padding-top:50px;
+}
+----*/
+/*---table css start----*/
+
+body{
+    background-color: #5bb9b8;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+table{
+    background-color: #2c3845;
+    color: #fff;
+    border-collapse: separate;
+    border-spacing: 3px;
+
+}
+thead,th,tbody,td{
+    border: 1px solid #28333f;
+    padding: 1rem;
+    text-align: left;
+    padding-right: 25px;
+
+}
+thead th{
+    background-color:#202932;
+    text-align: left;
+
+}
+tbody tr:nth-of-type(even){
+    background-color: #242e39;
+
+}
+tbody td:last-child{
+    text-align: center;
+    color: #b8c40d;
+    font-size: 25px;
+
+
+}
+td:not(last-child){
+    width: 260px;
+}
+button{
+    background-color:#4b988f;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    
+}
+
+
+/*---table css end----*/
